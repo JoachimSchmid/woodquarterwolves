@@ -7,4 +7,4 @@ theme_version: '2.8.2'
 cascade:
   featured_image: '/img/gruppenfoto.jpg'
 ---
-Diese Seite ist derzeit im Aufbau. Für einen Kontakt wenden Sie sich bitte an info@woodquarterwolves.at
+Diese Seite ist derzeit im Aufbau. Um Kontakt aufzunehmen wenden Sie sich bitte an info@woodquarterwolves.at
