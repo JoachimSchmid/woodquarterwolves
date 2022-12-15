@@ -1,4 +1,35 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "ananke"
+title = "W4Wolves"
+baseURL = "https://woodquarterwolves.at"
+languageCode = "de"
+theme = ["ananke"]
+resourceDir = "../resources"
+
+DefaultContentLanguage = "de"
+SectionPagesMenu = "main"
+Paginate = 1 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[languages]
+  [languages.de]
+    title = "W4Wolves"
+    weight = 1
+    contentDir = "content/de"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  text_color = ""
+  author = "Joachim Schmid"
+  favicon = "/img/favicon.svg"
+  site_logo = ""
+  description = "The last theme you'll ever need. Maybe."
+  background_color_class = ""
+  recent_posts_number = 3
+
+[[params.ananke_socials]]
+name = "facebook"
+url = "https://de-de.facebook.com/w4wolves/"
