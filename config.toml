@@ -10,12 +10,6 @@ Paginate = 1 # this is set low for demonstrating with dummy content. Set to a hi
 googleAnalytics = ""
 enableRobotsTXT = true
 
-[languages]
-  [languages.de]
-    title = "W4Wolves"
-    weight = 1
-    contentDir = "content/de"
-
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
